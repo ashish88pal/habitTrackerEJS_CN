@@ -22,3 +22,66 @@
   $ nodemon server.js or npm start
   ```
 
+
+  ## ScreenShots
+
+  ![Sign Up](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss1.png?raw=true)
+
+ ![Sign In](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss2.png?raw=true)
+
+ ![Home](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss3.png?raw=true)
+
+ ![screenshot 4](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss4.png?raw=true)
+
+ ![screenshot 5](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss5.png?raw=true)
+
+ ![screenshot 6](https://github.com/ashish88pal/habitTrackerEJS_CN/blob/91cbe97c6371cce025322a247565629718f52e3a/screenshots/ss6.png?raw=true)
+
+
+  ## Folder Structure
+```bash
+Habit Tracker
+|   package-lock.json
+|   package.json
+|   README.md
+|   server.js
+|
++---assets
+|   +---css
+|   |       home.css
+|   |       signin.css
+|   |       signup.css
+|   |
+|   +---images
+|   |       bored.png
+|   |       logo.png
+|   |
+|   \---js
+|           script.js
+|
++---config
+|       flashmiddleware.js
+|       mongoose.js
+|       passport-local-strategy.js
+|
++---controllers
+|       habbit_controller.js
+|       home_controller.js
+|       users_controller.js
+|
++---models
+|       habit.js
+|       user.js
+|
++---routes
+|       habit.js
+|       index.js
+|       users.js
+|
++---screenshots
+
+\---view
+        home.ejs
+        user_sign_in.ejs
+        user_sign_up.ejs
+```
